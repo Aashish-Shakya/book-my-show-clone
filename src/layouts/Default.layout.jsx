@@ -1,0 +1,13 @@
+import Navbar from '../components/Navbar.Component'
+
+const DefaultLayoutHoc = (Component) => ({ ...props }) => {
+    return (
+        <div>
+            <Navbar />
+            <Component {...props} />
+            <div>Footer</div>
+        </div>
+    )
+}
+
+export default DefaultLayoutHoc
