@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { BiChevronDown, BiMenu, BiSearch, BiShareAlt } from 'react-icons/bi'
-import { MovieContext } from '../context/Movie.context'
+import { MovieContext } from '../../context/Movie.context'
 
 const NavSm = () => {
     const { movie } = useContext(MovieContext);
