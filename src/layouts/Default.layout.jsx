@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar.Component'
+import Navbar from '../components/Navbar/Navbar.Component'
 
 const DefaultLayoutHoc = (Component) => ({ ...props }) => {
     return (
